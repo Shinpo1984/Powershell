@@ -1,6 +1,27 @@
 # Bienvenue sur mon bloc note Powershell
 
+Hello à tous,  
+A force de tripoter notre outil préféré et de tester plusieurs cmdlet, nous pouvons nous y perdre.
 
+Exemple :
+
+Je dois retrouver un cmdlet et pas moyen de le retrouver.  
+Mais comment faire !?  
+Il existe un cmdlet pour ça aussi (Powershell sait tout faire !)
+
+
+`Get-command`
+
+
+Disons que nous devons trouver un cmdlet pour chercher tous nos enregistrements DNS.
+
+
+`Get-Command -Name '*dns*'`
+
+
+
+Maintenant, nous avons toutes les commandes disponibles de Powershell concernant DNS.  
+Il nous reste juste à chercher la bonne, c’est fou non ?
 
 
 ## Welcome to GitHub Pages
