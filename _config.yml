@@ -1,1 +1,15 @@
 theme: jekyll-theme-modernist
+image: ruby:2.3
+
+variables:
+  JEKYLL_ENV: production
+
+pages:
+  script:
+    - bundle install
+    - bundle exec jekyll build
+  artifacts:
+    paths:
+      - _site
+  only:
+    - master
